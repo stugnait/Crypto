@@ -19,7 +19,6 @@ shift = int(input("Введіть величину зміщення для ши�
 # Шифрування
 encrypted_text = caesar_cipher_encrypt(text, shift)
 
-# Запис зашифрованого тексту в новий файл
 with open('resources/encrypted_text.txt', 'w', encoding='utf-8') as file:
     file.write(encrypted_text)
 
